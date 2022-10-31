@@ -1,0 +1,9 @@
+.completed {
+    text-decoration: line-through;
+    color: rgb(206, 90, 235);
+}
+
+.not-completed {
+    color: rgb(151, 179, 231);
+    font-weight: bold;
+}

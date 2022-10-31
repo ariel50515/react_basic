@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './Menu.css'
+// import './Menu.css'
 
 function Menu() {
   const [activeText, setActiveText] = useState('')
