@@ -1,3 +1,6 @@
+//1101
+import MultipleInput from './ex-1101-1/MultipleInput'
+
 //1031
 import BMI from './ex-1031-1/BMI'
 import BirthSelect from './ex-1031-2/BirthSelect'
@@ -23,6 +26,11 @@ import Menu from './1025-1028/ex-menu/Menu'
 import Counter from './1025-1028/ex-1025-2/Counter'
 
 export const examples = [
+  {
+    name: '1101-1 多個表單元素共用單一state',
+    path: '/ex-1101-1/MultipleInput.js',
+    component: MultipleInput,
+  },
   {
     name: '1031-3 Todo待辨事項',
     path: '/ex-1031-3/TodoApp.js',
