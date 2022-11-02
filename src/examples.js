@@ -1,3 +1,8 @@
+//1102
+import HTML5ValidForm from './ex-1102-1/HTML5ValidForm'
+import Lifecycle from './ex-1102-2/Lifecycle'
+import User from './ex-1102-3/User'
+
 //1101
 import MultipleInput from './ex-1101-1/MultipleInput'
 
@@ -26,6 +31,21 @@ import Menu from './1025-1028/ex-menu/Menu'
 import Counter from './1025-1028/ex-1025-2/Counter'
 
 export const examples = [
+  {
+    name: '1102-3 從伺服器載入資料',
+    path: '/ex-1102-3/User.js',
+    component: User,
+  },
+  {
+    name: '1102-2 生命周期方法',
+    path: '/ex-1102-2/Lifecycle.js',
+    component: Lifecycle,
+  },
+  {
+    name: '1102-1 HTML表單元素認證',
+    path: '/ex-1102-1/HTML5Form.js',
+    component: HTML5ValidForm,
+  },
   {
     name: '1101-1 多個表單元素共用單一state',
     path: '/ex-1101-1/MultipleInput.js',
