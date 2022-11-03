@@ -1,7 +1,12 @@
+//1103
+import ImageDemo from './ex-1103-1/ImageDemo'
+import UserDemo from './ex-1103-2/UserDemo'
+
 //1102
 import HTML5ValidForm from './ex-1102-1/HTML5ValidForm'
 import Lifecycle from './ex-1102-2/Lifecycle'
 import User from './ex-1102-3/User'
+import FileUploadSample from './ex-1102-4/FileUploadSample'
 
 //1101
 import MultipleInput from './ex-1101-1/MultipleInput'
@@ -31,6 +36,21 @@ import Menu from './1025-1028/ex-menu/Menu'
 import Counter from './1025-1028/ex-1025-2/Counter'
 
 export const examples = [
+  {
+    name: '1103-2 從伺服器載入資料，搜尋&分頁',
+    path: '/ex-1103-2/UserDemo.js',
+    component: UserDemo,
+  },
+  {
+    name: '1103-1 圖片使用說明',
+    path: '/ex-1103-1/ImageDemo.js',
+    component: ImageDemo,
+  },
+  {
+    name: '1102-4 上傳圖片',
+    path: '/ex-1102-4/FileUploadSample',
+    component: FileUploadSample,
+  },
   {
     name: '1102-3 從伺服器載入資料',
     path: '/ex-1102-3/User.js',
