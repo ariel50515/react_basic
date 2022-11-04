@@ -1,3 +1,7 @@
+//1104
+import UserPage from './ex-1104-1/UserPage'
+import BS5Test from './ex-1104-2/BS5Test'
+
 //1103
 import ImageDemo from './ex-1103-1/ImageDemo'
 import UserDemo from './ex-1103-2/UserDemo'
@@ -36,6 +40,16 @@ import Menu from './1025-1028/ex-menu/Menu'
 import Counter from './1025-1028/ex-1025-2/Counter'
 
 export const examples = [
+  {
+    name: '1104-2 Bootstrap5測試',
+    path: '/ex-1104-2/BS5Test.js',
+    component: BS5Test,
+  },
+  {
+    name: '1104-1 從伺服器載入資料，分頁',
+    path: '/ex-1104-1/UserPage.js',
+    component: UserPage,
+  },
   {
     name: '1103-2 從伺服器載入資料，搜尋&分頁',
     path: '/ex-1103-2/UserDemo.js',
